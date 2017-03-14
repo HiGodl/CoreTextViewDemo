@@ -13,6 +13,12 @@
 		2C40E3AC1E77F19B007F4E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C40E3AA1E77F19B007F4E08 /* Main.storyboard */; };
 		2C40E3AE1E77F19B007F4E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C40E3AD1E77F19B007F4E08 /* Assets.xcassets */; };
 		2C40E3B11E77F19B007F4E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C40E3AF1E77F19B007F4E08 /* LaunchScreen.storyboard */; };
+		2C40E3C01E77F367007F4E08 /* UIView+DAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E3BD1E77F367007F4E08 /* UIView+DAddition.m */; };
+		2C40E3CC1E77F380007F4E08 /* CoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E3C31E77F380007F4E08 /* CoreTextData.m */; };
+		2C40E3CD1E77F380007F4E08 /* CoreTextImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E3C51E77F380007F4E08 /* CoreTextImageData.m */; };
+		2C40E3CE1E77F380007F4E08 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E3C71E77F380007F4E08 /* CTDisplayView.m */; };
+		2C40E3CF1E77F380007F4E08 /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E3C91E77F380007F4E08 /* CTFrameParser.m */; };
+		2C40E3D01E77F380007F4E08 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40E3CB1E77F380007F4E08 /* CTFrameParserConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		2C40E3AD1E77F19B007F4E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C40E3B01E77F19B007F4E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C40E3B21E77F19B007F4E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C40E3BC1E77F367007F4E08 /* UIView+DAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DAddition.h"; sourceTree = "<group>"; };
+		2C40E3BD1E77F367007F4E08 /* UIView+DAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DAddition.m"; sourceTree = "<group>"; };
+		2C40E3C21E77F380007F4E08 /* CoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextData.h; sourceTree = "<group>"; };
+		2C40E3C31E77F380007F4E08 /* CoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextData.m; sourceTree = "<group>"; };
+		2C40E3C41E77F380007F4E08 /* CoreTextImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextImageData.h; sourceTree = "<group>"; };
+		2C40E3C51E77F380007F4E08 /* CoreTextImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextImageData.m; sourceTree = "<group>"; };
+		2C40E3C61E77F380007F4E08 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		2C40E3C71E77F380007F4E08 /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		2C40E3C81E77F380007F4E08 /* CTFrameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		2C40E3C91E77F380007F4E08 /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
+		2C40E3CA1E77F380007F4E08 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		2C40E3CB1E77F380007F4E08 /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 		2C40E3A01E77F19A007F4E08 /* CoreTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C40E3C11E77F380007F4E08 /* lib */,
+				2C40E3B91E77F367007F4E08 /* commonclasses */,
 				2C40E3A41E77F19A007F4E08 /* AppDelegate.h */,
 				2C40E3A51E77F19A007F4E08 /* AppDelegate.m */,
 				2C40E3A71E77F19A007F4E08 /* ViewController.h */,
@@ -77,6 +97,32 @@
 				2C40E3A21E77F19A007F4E08 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C40E3B91E77F367007F4E08 /* commonclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2C40E3BC1E77F367007F4E08 /* UIView+DAddition.h */,
+				2C40E3BD1E77F367007F4E08 /* UIView+DAddition.m */,
+			);
+			path = commonclasses;
+			sourceTree = "<group>";
+		};
+		2C40E3C11E77F380007F4E08 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2C40E3C21E77F380007F4E08 /* CoreTextData.h */,
+				2C40E3C31E77F380007F4E08 /* CoreTextData.m */,
+				2C40E3C41E77F380007F4E08 /* CoreTextImageData.h */,
+				2C40E3C51E77F380007F4E08 /* CoreTextImageData.m */,
+				2C40E3C61E77F380007F4E08 /* CTDisplayView.h */,
+				2C40E3C71E77F380007F4E08 /* CTDisplayView.m */,
+				2C40E3C81E77F380007F4E08 /* CTFrameParser.h */,
+				2C40E3C91E77F380007F4E08 /* CTFrameParser.m */,
+				2C40E3CA1E77F380007F4E08 /* CTFrameParserConfig.h */,
+				2C40E3CB1E77F380007F4E08 /* CTFrameParserConfig.m */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C40E3CD1E77F380007F4E08 /* CoreTextImageData.m in Sources */,
+				2C40E3CE1E77F380007F4E08 /* CTDisplayView.m in Sources */,
+				2C40E3D01E77F380007F4E08 /* CTFrameParserConfig.m in Sources */,
 				2C40E3A91E77F19A007F4E08 /* ViewController.m in Sources */,
 				2C40E3A61E77F19A007F4E08 /* AppDelegate.m in Sources */,
+				2C40E3C01E77F367007F4E08 /* UIView+DAddition.m in Sources */,
 				2C40E3A31E77F19A007F4E08 /* main.m in Sources */,
+				2C40E3CC1E77F380007F4E08 /* CoreTextData.m in Sources */,
+				2C40E3CF1E77F380007F4E08 /* CTFrameParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +362,7 @@
 				2C40E3B71E77F19B007F4E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
