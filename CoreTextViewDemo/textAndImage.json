@@ -6,6 +6,12 @@
  "name":"http://images2015.cnblogs.com/blog/528071/201605/528071-20160519135211638-1907651492.png",
  },
  {
+ "type":"img",
+ "width":"300",
+ "height":"150",
+ "name":"test"
+ },
+ {
  "color":"#FF8000",
  "size":10,
  "content":"哈哈哈哈哈",
