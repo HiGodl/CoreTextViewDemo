@@ -1,2 +1,2 @@
 # CoreTextViewDemo
-利用CoreText完成图文混排框架
+唐巧大神iOS开发进阶中的例子，加了网络图片支持
